@@ -1,0 +1,67 @@
+.jumbotron {
+  background-image: url('./img/rose.jpg');
+  background-size: cover;
+  background-position: center center;
+  border-radius: 0;
+}
+
+h1 {
+  color: white;
+}
+
+.jumbotron p {
+  color: white;
+}
+
+.bgsection,
+.bgsection-smaller {
+  background-size: cover;
+  background-position: center center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.bgsection {
+  padding: 10vh 0;
+}
+
+.bgsection-smaller {
+    padding: 5vh 0;
+}
+
+.bgsection h1 {
+  color: white;
+}
+
+.btn {
+  white-space: normal;
+}
+
+#content-english,
+#content-finnish {
+  display: none;
+}
+
+.btn-outline-primary:hover {
+  background-color: #309bff;
+}
+
+body {
+  padding-bottom: 20vh;
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+  .bgsection {
+    padding: 15vh 0;
+  }
+
+  .bgsection-smaller {
+      padding: 10vh 0;
+  }
+
+}

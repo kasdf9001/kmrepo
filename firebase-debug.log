@@ -1,0 +1,41 @@
+[debug] [2018-05-06T13:25:20.117Z] ----------------------------------------------------------------------
+[debug] [2018-05-06T13:25:20.119Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2018-05-06T13:25:20.119Z] CLI Version:   3.18.2
+[debug] [2018-05-06T13:25:20.119Z] Platform:      linux
+[debug] [2018-05-06T13:25:20.119Z] Node Version:  v8.11.1
+[debug] [2018-05-06T13:25:20.119Z] Time:          Sun May 06 2018 16:25:20 GMT+0300 (DST)
+[debug] [2018-05-06T13:25:20.119Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-06T13:25:20.148Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-06T13:25:20.149Z] > authorizing via signed-in user
+[debug] [2018-05-06T13:25:20.150Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-06T13:25:20.150Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/K1tw9DulbKq9YsqwO4u30CFsNRnVBExAZSUQi1Xyu2Q7g_yLM8fR6sT69CTraV1r',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun May 06 2018 16:25:20 GMT+0300 (DST)
+[debug] [2018-05-06T13:25:20.539Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-06T13:25:20.546Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/myers-kallio  
+  
+ Sun May 06 2018 16:25:20 GMT+0300 (DST)
+[debug] [2018-05-06T13:25:21.551Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-06T13:25:21.552Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/myers-kallio/tokens  
+  
+ Sun May 06 2018 16:25:21 GMT+0300 (DST)
+[debug] [2018-05-06T13:25:22.511Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-06T13:25:22.511Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/myers-kallio  
+  
+ Sun May 06 2018 16:25:22 GMT+0300 (DST)
+[debug] [2018-05-06T13:25:23.560Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/kasdf/myers-kallio.wedding'...
+[info] 
+[debug] [2018-05-06T13:25:23.568Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/34055789058/clients/_:getWebAppConfig  
+  
+ Sun May 06 2018 16:25:23 GMT+0300 (DST)
+[debug] [2018-05-06T13:25:24.251Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist
+[info] ✔  hosting: Local server: http://localhost:5000
+
