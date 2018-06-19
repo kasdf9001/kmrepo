@@ -23,10 +23,21 @@ h1 {
   font-family: 'Tangerine', cursive;
 }
 
+.flag {
+  position:relative;
+  top:-2px;
+  margin-right: 10px;
+}
+
 .bgsection,
 .bgsection-smaller {
   background-size: cover;
   background-position: center center;
+}
+
+.alert-success {
+  background-color: #f9fbff;
+  border-color: #fff;
 }
 
 h1 {
@@ -85,17 +96,21 @@ body {
 @media (min-width: 576px) {
 
 }
+
 @media (min-width: 768px) {
   .display-1 { font-size: 5rem; }
   .display-2 { font-size: 4rem; }
   .display-3 { font-size: 3rem; }
 }
+
 @media (min-width: 992px) {
   .display-1 { font-size: 5rem; }
   .display-2 { font-size: 4rem; }
   .display-3 { font-size: 4rem; }
 }
+
 @media (min-width: 1200px) {
+  .jumbotron h2 { font-size: 2.5rem; }
   .display-1 { font-size: 5rem; }
   .display-2 { font-size: 4.5rem; }
   .display-3 { font-size: 4rem; }
