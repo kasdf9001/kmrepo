@@ -60,10 +60,13 @@ h1 {
   white-space: normal;
 }
 
+/* enables the javascript hide/show functionality */
+/*
 #content-english,
 #content-finnish {
   display: none;
 }
+*/
 
 .btn-outline-primary:hover {
   background-color: #309bff;
