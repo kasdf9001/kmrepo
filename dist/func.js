@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-  $('.btn').click(function(evt) {
+  $('.content-toggler').click(function(evt) {
       evt.stopPropagation();
       evt.preventDefault();
 

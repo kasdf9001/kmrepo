@@ -74,6 +74,11 @@ body {
   padding-bottom: 20vh;
 }
 
+ /* rsvp link */
+ .rsvp {
+  width: 50%;
+ }
+
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
