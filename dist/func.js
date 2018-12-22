@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+
   $('.content-toggler').click(function(evt) {
       evt.stopPropagation();
       evt.preventDefault();
@@ -15,7 +16,7 @@ $( document ).ready(function() {
   });
 
   function parseCheckboxesForContent() {
-    $('input').each(function() {
+    $('.content-toggler__input').each(function() {
       var contentelement = $(this).attr('id').replace('selection','content');
       if( $(this).is(':checked') ) {
           $('#' + contentelement ).show();
