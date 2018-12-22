@@ -63,7 +63,7 @@ h1 {
 /* enables the javascript hide/show functionality */
 #content-english,
 #content-finnish {
-  /* display: none; */
+  display: none;
 }
 
 .btn-outline-primary:hover {
